@@ -61,20 +61,6 @@ Metrics (primary + secondary)
 
   Secondary Metrics: Precision target of 80-90% is achievable and realistic by training on high-quality labeled datasets of behavioral anomalies, general surveillance, and theft detection images. We also focus on       speed to maximize the efficiency from real-time detection with 50-500 4K cameras achieving 30 FPS continuous recording.​
 
-Week-by-Week Plan:
-
-  Week 10 - (Oct 30)	Get dataset, set up environment	Dataset ready
-
-  Week 11 - (Nov 6)	Train or fine-tune model	Model working
-
-  Week 12 - (Nov 13)	Test and improve	Good accuracy
-
-  Week 13 - (Nov 20)	Create demo / video	Demo ready
-
-  Week 14 - (Nov 27)	Final testing / documentation	Everything done
-
-  Week 15 - (Dec 4)	Present project	Presentation day
-
 Resources Needed (compute, cost, APIs) Changed runtime to L4 GPU to handle required video sequencing needed for this project that performs great with YOLOv8 for training. The project calls for no less than 30 frames per second (fps) and batch sizes can range between 16-32 for faster training which L4 GPU excels in and makes perfect for this project.
 
   Google Colab T4 GPU for primary platform to conduct initial testing. Kaggle for backup or more time if needed.​
