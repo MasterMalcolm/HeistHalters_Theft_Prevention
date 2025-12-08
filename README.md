@@ -88,3 +88,7 @@ Risks & Mitigation Table
 Used Claude AI for insight on what models Veesion and other top companies are using for retail prevention with AI. Claude provided a breakdown of the models used, ML domains, architectures and examples of real world use cases outside of retail theft prevention.
 Copilot was used to design powerpoint slides. ChatGPT was utilized to provide information on the best datasets and how/when to implement them into training, testing or fine-tuning stages.
 Gemini AI coding assistant used to fix and explain the imported code used for YOLOv8, RoboFlow...
+
+Theft Demo
+
+https://github.com/user-attachments/assets/1ffdacd1-0b5f-40ae-9a6c-00dc10f95fce
