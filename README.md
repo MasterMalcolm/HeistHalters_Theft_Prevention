@@ -72,6 +72,17 @@ Week-by-Week Plan:
 Resources Needed (compute, cost, APIs) Changed runtime to L4 GPU to handle required video sequencing needed for this project that performs great with YOLOv8 for training. The project calls for no less than 30 frames per second (fps) and batch sizes can range between 16-32 for faster training which L4 GPU excels in and makes perfect for this project.
 
   Google Colab T4 GPU for primary platform to conduct initial testing. Kaggle for backup or more time if needed.​
+  KAGGLE Datasets:
+    
+https://www.kaggle.com/datasets/kipshidze/shoplifting-video-dataset
+
+https://www.kaggle.com/datasets/gti-upm/leapgestrecog
+
+https://www.kaggle.com/datasets/mateohervas/dcsass-dataset
+
+https://www.kaggle.com/datasets/momanyc/museum-collection
+
+https://www.kaggle.com/datasets/ziya07/hajj-and-umrah-crowd-management-dataset
 
   UCF-Crime datasets for actual footage of criminalbehaviors with a "normal" baseline to compare against. UCF requires a request form at no cost. ​
 
