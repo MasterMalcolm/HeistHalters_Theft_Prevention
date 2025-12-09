@@ -34,9 +34,25 @@ Dataset Plan (source, size, labels, link if public) -
   Roboflow Universe's open-source shoplifting/gesture datasets 📊 will help our model learn typical movement patterns before we train it on real museum scenarios to provide a solid foundation. 🤖​
 
 
-Technical Approach (technique, model, framework) Import the following libraries and framework: Ultralytics for YOLOv8 that looks for and identifies people, actions, exhibits and other objects in images is ultimately the brain for our AI system; Opencv-python-headless to read video files and break them into individual frames; PyTorch framework (torch and torchvision) to build and train the neural networks performing math calculations learning from examples during training and run predictions on new videos, inference; Transformers to connect images to text descritpion and generate explanations, utilizing CLIP and BLIP, to reduce false alarms by understanding the intent and not just actions; Scikit-learn to calculate accuracy, precision, recall and F1-scores through splitting our data into training, validation and testing groups creating confusion matrices showing which behaviors our AI confuses; Matplotlib and Seaborn show results with visual charts and graphs helping track training curves and prove the system is working; Pytorchvideo for analyzing frame sequences and understand behavior over time. Our system balances a lot of competing demands simultaneously including tediously composing datasets, continuous active learning that improves detection and minimizes human labeling, real-time image processing at 20-30 fps, and high recall in order to be successful.  
+Technical Approach (technique, model, framework) Import the following libraries and framework: 
+
+  Ultralytics for YOLOv8 that looks for and identifies people, actions, exhibits and other objects in images is ultimately the brain for our AI system; 
+
+  Opencv-python-headless to read video files and break them into individual frames; 
+  
+  PyTorch framework (torch and torchvision) to build and train the neural networks performing math calculations learning from examples during training and run      predictions on new videos, inference; 
+  
+  Transformers to connect images to text descritpion and generate explanations, utilizing CLIP and BLIP, to reduce false alarms by understanding the intent and     not just actions; 
+  
+  Scikit-learn to calculate accuracy, precision, recall and F1-scores through splitting our data into training, validation and testing groups creating confusion    matrices showing which behaviors our AI confuses; 
+  
+  Matplotlib and Seaborn show results with visual charts and graphs helping track training curves and prove the system is working; 
+  
+  Pytorchvideo for analyzing frame sequences and understand behavior over time. Our system balances a lot of competing demands simultaneously including
+  tediously composing datasets, continuous active learning that improves detection and minimizes human labeling, real-time image processing at 20-30 fps, and      high recall in order to be successful.  
 
 Dataset Plan (source, size, labels, link if public) A strong foundation is built for our behavioral theft detection system using multiple sources to avoid bias by combining large-scale datasets for training and specialized behaviorial  data for rare theft events used for fine-tuning.  UCF-101 has more than 13,000 videos that cover 101 action categories that has demonstrated 96% accuracy with YOLO architectures which brings us to believe is ideal for the intial transfer learning. UCF-Crime or Anomaly Detection datasets has actual suspicious behavior videos. COCO has people, bags, products (good starting point) Roboflow for "shoplifting detection" or "retail security" datasets. Unity Perception synthetic datasets that allow us to generate correct labels that would be difficult to get in actual museums. Can build "scenes" for bounding box and labeler to capture boundaries, person crossing boundaries, hands, gestures, artifacts, reaching, bags, etc
+
   Unity Perception open-source package provides synthetic data for computer vision by training the synthetic datasets on a 2D object detection model.  🤖​
 
   UFC-Crime Dataset for anomaly detection to identify and label abnormal and normal behavior. The system learns to detect anomalies by comparing patterns and context to what is "normal."​ 10,000-20,000 high-quality     labeled data images needed to train, validate and test model​
