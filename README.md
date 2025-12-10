@@ -93,11 +93,6 @@ Risks & Mitigation Table
   Probability - Medium
   Mitigation - Use data augmentation, High Switch to Roboflow dataset
 
-Used Claude AI for insight on what models Veesion and other top companies are using for retail prevention with AI. Claude provided a breakdown of the models used, ML domains, architectures and examples of real world use cases outside of retail theft prevention.
-Copilot was used to design powerpoint slides. ChatGPT was utilized to provide information on the best datasets and how/when to implement them into training, testing or fine-tuning stages.
-
-Leveraged Gemini to generate the foundational Python architecture for the computer vision pipeline, including the core scripts for YOLOv8 training and automated video inference. It provided a functional code base to handle complex tasks like environment setup and integrate Google Drive. This established a stable prototype, allowing us to focus on optimizing the scripts, customizing the datasets, and fine-tuning the model to meet the project's specific requirements.
-
 Theft Demo
 
 https://github.com/user-attachments/assets/1ffdacd1-0b5f-40ae-9a6c-00dc10f95fce
